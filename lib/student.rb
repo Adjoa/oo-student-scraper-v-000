@@ -18,12 +18,12 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    self.bio
-    self.blog
-    self.profile_quote
-    self.linkedin
-    self.twitter
-    self.github
+    self.bio = attributes_hash
+    self.blog = attributes_hash
+    self.profile_quote = attributes_hash
+    self.linkedin = attributes_hash
+    self.twitter = attributes_hash
+    self.github = attributes_hash
   end
 
   def self.all
